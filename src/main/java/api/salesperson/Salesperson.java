@@ -1,4 +1,4 @@
-package api.product;
+package api.salesperson;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,12 +11,11 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Product {
+public class Salesperson {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
     private String name;
-    private Double price;
 }
